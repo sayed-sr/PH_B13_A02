@@ -1,0 +1,303 @@
+.hidden{
+    display: none;
+}
+.hidden{
+    display: none !important;
+}
+
+/* Hide all sections that do NOT have the class 'focus' */
+section:not(.focus) {
+    display: none;
+}
+
+/* about */
+@media screen and (max-width: 576px) {
+     
+#about{
+padding-bottom: 40px;
+
+}
+#about .container{
+  margin: 0 10px;
+}
+#about .container .text{
+   
+     padding: 40px 0px 40px;
+     padding-bottom: 40px;
+    
+
+
+}
+#about .container h3{
+   
+    font-size: 32px;
+
+}
+#about .p1 br {
+    display: none;
+  }
+
+#about .container .p1{
+    line-height: 22px;
+    
+
+}
+
+
+#about  .card-ctn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+   padding-top: 40px;
+    
+}
+
+}
+
+
+
+/* choose */
+@media screen and (max-width: 576px){
+    #choose{
+    margin-top:-1 ;
+    
+}
+
+
+
+#choose .container{
+     margin: 0 10px;
+     padding-top: 40px;
+          padding-bottom: 40px;
+
+}
+#choose .container h3{
+   
+font-size: 32px;
+padding-bottom: 20px;
+}
+
+#choose .container .card-ctn{
+    display: grid;
+   grid-template-columns: 1fr ;
+    grid-template-areas:
+        "card1"
+        "card21"
+        "card22"
+         "card3"
+         "card4";
+    gap:16px;
+}
+
+
+  #choose .container .card-ctn > div {
+    margin: 0 5px 0px;
+  }
+
+  #choose .container .card-ctn br {
+    display: none;
+  }
+
+#choose .container .card-ctn .onecard{
+        padding:24px;
+       margin-right:0px;
+       margin-bottom:0px;
+         border-radius: 20px;
+          line-height: 24px;
+}
+
+
+#choose .container .card-ctn .twocard{
+    
+        padding:25px ; 
+         border-radius: 20px;
+          line-height: 24px;
+          margin: 0px;
+}
+
+#choose .container .card-ctn .threecard{
+        padding:25px ; 
+       
+        border-radius: 20px;
+         line-height: 24px;
+}
+
+#choose .container .card-ctn .fourcard{
+      
+        padding:24px ;
+        border-radius: 20px;
+        line-height: 24px;
+        margin-right: 0px;
+        
+}
+
+
+  #choose .container .card-ctn .fivecard{
+     
+        padding:24px ;
+        border-radius: 20px;
+        
+      
+}
+
+}
+
+
+/* Feature */
+@media screen and (max-width: 576px){
+#feature{
+   max-width: 576px
+}
+
+
+#feature .media{
+ 
+  padding-top:60px;
+  margin: 0px 15px 0px;
+
+}
+
+#feature .media h3{
+    font-size: 32px;
+     padding-bottom: 24px;
+}
+
+#feature .media .card-ctn{
+  display: flex;
+  gap:16px;
+  flex-direction: column;
+}
+
+#feature .media .card-ctn .text{
+padding: 16px;
+}
+
+#feature .media .card-ctn h5{
+    font-size: 16px;
+    padding-bottom: 8px;
+}
+
+#feature .media .card-ctn .text .m{
+display: -webkit-box;           
+    -webkit-box-orient: vertical;  
+    -webkit-line-clamp: 2;
+    overflow: hidden;              
+}
+
+#feature .media .card-ctn .text .time{
+        padding-top: 8px;
+        gap: 6px;   
+
+}
+
+#feature .host{
+  padding-top:60px;
+  padding-bottom:60px;
+  margin: 0 15px;
+ 
+
+}
+
+
+#feature h3{
+   
+font-size: 32px;
+padding-bottom: 20px;
+
+}
+
+#feature .host-info{
+    flex-direction: column;
+     border-radius: 24px;
+     gap:16px;
+      align-items: center; 
+      
+      
+}
+
+
+#feature .host-info .info {
+    padding: 0px 24px 24px 24px;
+     /* border: 1px solid yellow;  */
+}
+
+#feature .host-info .info h5{
+    /* border: 1px solid yellow;  */
+    text-align: center;
+   
+}
+
+
+#feature .host-info .info p{
+    text-align: center;
+    
+      font-size: 15px;  
+}
+#feature .host-info .info .icon{
+     
+   margin: 0px 70px;
+   
+     gap:8px;
+   
+}
+#feature .host-info .img {
+  padding: 24px ;  
+  padding-bottom: 0px;      
+  margin: 0 auto;  
+  /* border: 1px solid yellow;  */
+}    
+
+}
+
+
+
+/* Footer */
+ @media screen and (max-width: 576px){ 
+#footer{
+ background-image: url(assets/footer-bg.png);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; 
+  
+    width: 100%;
+   height: auto;
+}
+
+
+#footer .container{
+    /* border: 1px solid yellow; */
+    margin:0 auto;
+    width: 100%;
+    /* padding: 0px 20px; */
+    
+   
+   
+}
+#footer .container .img{
+    
+    padding-top: 40px;
+    padding-bottom: 24px;
+        /* border: 1px solid yellow; */
+       margin: 0 auto;
+
+}
+#footer .container .img img{
+    width:219px;
+    height: 32px;
+}
+#footer .container .logo {
+     /* border: 1px solid yellow; */
+  flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    padding: 0px 50px;
+    padding-bottom: 32px;
+}
+
+#footer .container .cr{
+    /* border: 1px solid yellow; */
+    padding-bottom: 40px;
+}
+
+}  
