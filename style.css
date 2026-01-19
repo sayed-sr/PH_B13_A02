@@ -397,3 +397,166 @@ padding-bottom: 40px;
     opacity:50%;
 }
 
+
+
+/* =================================== Features================================== */
+
+#feature{
+    max-width: 1600px;
+    background-color: #1A0B2E;
+    /* border: 1px solid yellow; */
+}
+
+#feature .media{
+  /* border: 1px solid yellow; */
+  padding-top:120px;
+  margin: 0 155px;
+  text-align: center;
+  color:white;
+
+}
+
+#feature .media h3{
+    font-size: 48px;
+    font-weight: bold;
+     /* border: 1px solid yellow; */
+     padding-bottom: 40px;
+}
+
+
+#feature .media .card-ctn{
+  display: flex;
+  gap:33px;
+}
+
+#feature .media .card-ctn .card .card-media{
+    /* border: 1px solid yellow; */
+    position: relative;
+}
+
+#feature .media .card-ctn .card{
+    background-color: #250D44;
+    width: 380px;
+       border-radius: 24px;
+    
+   
+}
+#feature .media .card-ctn .card iframe{
+    background-color: #250D44;
+    width: 380px;
+     border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+   
+}
+
+
+#feature .media .card-ctn .card .card-media img{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;      
+    object-fit: contain; 
+}
+
+#feature .media .card-ctn .text{
+/* border: 1px solid yellow; */
+padding: 24px;
+}
+
+
+#feature .media .card-ctn h5{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: start;
+    padding-bottom: 12px;
+}
+
+#feature .media .card-ctn .text .m{
+    font-size: 16px;
+    font-weight: regular;
+    text-align: start;
+    opacity: 50%;
+    line-height: 24px;
+    text-align: start;
+    /* border: 1px solid yellow; */
+    
+}
+
+#feature .media .card-ctn .text .time{
+    display: flex;
+        /* border: 1px solid yellow; */
+        padding-top: 13px;
+        gap: 7px;   
+
+}
+#feature .media .card-ctn .text .time img{
+    flex-shrink: 0;  
+}
+
+
+
+#feature .host{
+     /* border: 1px solid yellow; */
+  padding-top:120px;
+  padding-bottom:120px;
+  margin: 0 150px;
+  text-align: center;
+  color:white;
+ 
+ 
+  /* padding-bottom: 120px; */
+}
+
+
+#feature h3{
+     /* border: 1px solid yellow; */
+font-size: 48px;
+font-weight: bold;
+padding-bottom: 40px;
+
+}
+
+#feature .host-info{
+    display: flex;
+     border-radius: 40px;
+     background-color: rgba(53, 17, 101, 0.4);
+     
+     /* gap:24px; */
+}
+
+
+
+#feature .host-info .info {
+    padding: 48px 40px 48px;
+}
+
+#feature .host-info .info h5{
+    /* border: 1px solid yellow; */
+    text-align: start;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+#feature .host-info .info p{
+    text-align: start;
+    font-size: 16px;
+    font-weight: ragular;
+    line-height: 24px;
+    opacity: 50%;
+    padding-bottom: 16px;
+}
+
+#feature .host-info .info .icon{
+     /* border: 1px solid yellow; */
+     display: flex;
+     gap:8px;
+   
+}
+
+#feature .host-info .img {
+padding: 40px;
+padding-right: 0;
+/* border: 1px solid yellow; */
+}
