@@ -275,15 +275,18 @@ margin-bottom: 16px;
 /* ============================= Choose ================================== */
 
 #choose{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     background-color:#230E3D;
+    max-width: 1600px;
   
 }
 
 
 #choose .container{
-     margin: 120px 200px;
-          border: 1px solid yellow;
+     margin: 0 200px;
+     padding-top: 120px;
+          /* border: 1px solid yellow; */
+          padding-bottom: 120px;
 
 }
 
@@ -291,7 +294,7 @@ margin-bottom: 16px;
    color:white;
 font-size: 48px;
 font-weight: bold;
-          border: 1px solid yellow;
+          /* border: 1px solid yellow; */
 text-align: center;
 padding-bottom: 40px;
 }
@@ -299,9 +302,98 @@ padding-bottom: 40px;
 
 
 #choose .container .card-ctn{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
+    color: white;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
+   grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-rows: auto auto  auto;
+    grid-template-areas:
+        "card1 card21 card21"
+        "card1 card22 card22"
+        "card3 card3 card4";
+    /* gap:16px; */
 
 }
+.card1 {
+    grid-area: card1;
+
+}
+
+.card21 {
+    grid-area: card21;
+}
+
+.card22 {
+    grid-area: card22;
+}
+
+.card3 {
+    grid-area: card3;
+}
+
+.card4 {
+    grid-area: card4;
+}
+
+
+#choose .container .card-ctn .onecard{
+        /* border: 1px solid yellow; */
+        padding: 107px 40px;
+       
+        margin-right: 30px;
+        margin-bottom: 30px;
+        border-radius: 40px;
+        background-color:rgba(53, 17, 101, 0.4);
+        line-height: 24px;
+        
+}
+
+#choose .container .card-ctn .twocard{
+        /* border: 1px solid yellow; */
+        padding:40px ; 
+        padding-bottom: 40;
+        border-radius: 40px;
+        background-color:rgba(53, 17, 101, 0.4);
+         line-height: 24px;
+
+}
+#choose .container .card-ctn .threecard{
+        /* border: 1px solid yellow; */
+       padding:40px ; 
+        padding-bottom: 40;
+        border-radius: 40px;
+        background-color:rgba(53, 17, 101, 0.4);
+         line-height: 24px;
+
+}
+#choose .container .card-ctn .fourcard{
+        /* border: 1px solid yellow; */
+        padding:40px ;
+        margin-right: 30px;
+        border-radius: 40px;
+        background-color:rgba(53, 17, 101, 0.4);
+      
+}
+#choose .container .card-ctn .fivecard{
+        /* border: 1px solid yellow; */
+        padding:40px ;
+        padding-bottom: 49px;
+        border-radius: 40px;
+        background-color:rgba(53, 17, 101, 0.4);
+      
+}
+
+#choose .container .card-ctn img, h5 {
+    padding-bottom: 16px;
+
+}
+#choose .container .card-ctn h5 {
+       font-size: 24px;
+    font-weight: bold;
+}
+#choose .container .card-ctn p {
+    font-size: 15px;
+    font-weight: regular;
+    opacity:50%;
+}
+
