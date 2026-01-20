@@ -153,7 +153,7 @@ padding-bottom: 20px;
 #feature .media{
  
   padding-top:60px;
-  margin: 0px 15px 0px;
+  margin: 0px 20px;
 
 }
 
@@ -254,7 +254,7 @@ padding-bottom: 20px;
 /* Footer */
  @media screen and (max-width: 576px){ 
 #footer{
- background-image: url(assets/footer-bg.png);
+ background-image: url(assets/new_bg.png);
    background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; 
@@ -420,3 +420,16 @@ font-size: 40px;
 
 
 }
+
+
+
+@media screen and (max-width: 576px) {
+  section {
+    overflow: hidden;
+  }
+}
+
+
+
+
+

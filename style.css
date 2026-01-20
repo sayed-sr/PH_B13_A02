@@ -456,8 +456,8 @@ padding-bottom: 40px;
   margin: 0 155px;
   text-align: center;
   color:white;
-
 }
+
 
 #feature .media h3{
     font-size: 48px;
@@ -475,18 +475,22 @@ padding-bottom: 40px;
 #feature .media .card-ctn .card .card-media{
     /* border: 1px solid yellow; */
     position: relative;
+    /* width: 400px; */
+    /* height: 225px; */
 }
 
 #feature .media .card-ctn .card{
     background-color: #250D44;
-    width: 380px;
+    /* width: 400px; */
        border-radius: 24px;
+       overflow: hidden;
     
    
 }
 #feature .media .card-ctn .card iframe{
     background-color: #250D44;
-    width: 380px;
+       width: 100%;
+    height: 100%;
      border-top-left-radius: 24px;
     border-top-right-radius: 24px;
    
@@ -673,3 +677,13 @@ padding-right: 0;
 
 
 
+
+/* =================Special================= */
+/* #about,
+#choose,
+#feature,
+#footer,
+#nav {
+  max-width: none;
+  width: 100%;
+} */
