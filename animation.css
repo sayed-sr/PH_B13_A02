@@ -1,0 +1,94 @@
+#nav .btn, #hero .button .b1,#hero .button .b2 {
+transition: all 0.3s ease; 
+
+}
+#nav .btn:hover {
+    transform: scale(1.1);
+        background: linear-gradient(90deg, #FB09B4, #9100F8, #F7E93F);
+color:black; }
+
+#hero .button .b1:hover {
+    transform: scale(1.1);
+background: linear-gradient(90deg, #FB09B4, #9100F8, #F7E93F);
+    color:#000;
+}
+
+
+
+#hero .button .b2:hover {
+    transform:scale(1.1);
+     background-color:#00FF88;
+    color: #1A0B2E;
+        border-color: #00FF88;
+}
+
+#hero .new {
+    transition: all 0.3s ease;
+}
+
+#hero .new:hover {
+    transform: translate(-50%, -50%) scale(1.1); 
+
+    animation: newBtnBounce 0.6s ease-in-out;
+}
+
+@keyframes newBtnBounce {
+0%   {
+         transform: translate(-50%, -50%) scale(1.1); 
+        }
+     25%  {
+         transform: translate(-50%, -60%) scale(1.15); 
+            }
+    
+            50%  { 
+        transform: translate(-50%, -50%) scale(1.1); 
+         }  
+    75%  {
+         transform: translate(-50%, -40%) scale(1.12);
+}
+    100% {
+         transform: translate(-50%, -50%) scale(1.1);
+         }   
+}
+
+
+#hero .microphone {
+    transition:transform 2s ease-in-out;
+}
+
+#hero .microphone:hover {
+    animation: rotateMicro 2s linear;
+}
+
+@keyframes rotateMicro {
+    0% { 
+        transform: translate(-50%, -50%) rotate(0deg); }
+    100% { 
+        transform: translate(-50%, -50%) rotate(360deg);
+     }
+}
+
+
+
+#feature h3 {
+    animation: hostColorChange 5s linear infinite;
+}
+
+@keyframes hostColorChange {
+    0%   { 
+        color: #F7E93F;
+     }
+      25%   { 
+
+        color: #FB09B4; }
+ 50%{
+
+        color: #9100F8; 
+    }
+    75%  { 
+        color: #00FF88; 
+    }
+
+    100% { 
+    color: #F7E93F; }
+}
